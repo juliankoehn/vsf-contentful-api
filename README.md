@@ -16,7 +16,7 @@ vsf-contentful-api uses a number of open source projects to work properly:
 
 vsf-contentful-api requires [Contentful SDK](https://github.com/contentful/contentful.js) v7+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies.
 
 ```sh
 $ cd vue-storefront-api
@@ -24,6 +24,7 @@ $ npm i contentful --save
 ```
 
 Edit vue-storefront-api/config/local.json
+
 ```json
 "registeredExtensions": [
 	"contentful-api"
