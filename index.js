@@ -14,9 +14,9 @@ module.exports = ({ config }) => {
 
   api.get('/entries', (req, res) => {
     const query = req.query
-    client.getEntries({
+    client.getEntries(
       query
-    }).then((result) => {
+    ).then((result) => {
       apiStatus(res, result, 200)
     }).catch((err) => {
       apiStatus(res, err, 500)
