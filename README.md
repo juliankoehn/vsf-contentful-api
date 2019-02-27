@@ -26,17 +26,16 @@ $ npm i contentful --save
 Edit vue-storefront-api/config/local.json
 ```json
 "registeredExtensions": [
-	...
 	"contentful-api"
-	...
+]
+```
 
+```json
 "extensions": {
-	...
 	"contentful": {
 		"space": "YOUR-SPACE-ID",
 		"accessToken": "YOUR-ACCESS-TOKEN"
 	}
-	...
 }
 ]
 ```
