@@ -1,7 +1,7 @@
 
 # vsf-contentful-api
 
-Extends the Vue Storefront API witht he Contentful API
+Extends the [Vue Storefront API](https://github.com/DivanteLtd/vue-storefront-api) witht the Contentful API
 
 ### Requirements
 ` npm -i contentful --save
